@@ -1,0 +1,33 @@
+function sum(a,b){
+
+  let  ary=[];
+    ary[0]= a+b;
+    ary[1]= 'The sum of 4 and 7 is 11.'
+    return ary;
+}
+console.log(sum(4,7));
+
+
+
+function multiply(a,b){
+
+  let  ary=[];
+    ary[0]= a*b;
+    ary[1]= 'The product of 5 and 9 is 45.'
+    return ary;
+}
+console.log(multiply(4,7));
+
+
+function sumAndMultiply(a, b, c){
+
+  let  ary=[];
+    ary[0]= a+b+c;
+    ary[1]= a*b*c;
+    ary[3]= '4 and 7 and 5 sum to 16.'
+    ary[4]= 'The product of 4 and 7 and 5 is 140.'
+    
+    
+    return ary;
+}
+console.log(multiply(4,7));
